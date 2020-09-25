@@ -1,0 +1,60 @@
+{
+  "name": "msyproject",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "element-china-area-data": "^5.0.0",
+    "axios": "^0.18.0",
+    "echarts": "^4.2.0-rc.2",
+    "element-ui": "^2.13.2",
+    "js-cookie": "^2.2.0",
+    "normalize.css": "^8.0.0",
+    "nprogress": "^0.2.0",
+    "v-charts": "^1.19.0",
+    "v-distpicker": "^1.0.20",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "css-loader": "^0.28.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.0.1",
+    "vue-loader": "^13.3.0",
+    "vue-style-loader": "^3.0.1",
+    "svg-sprite-loader": "^3.7.3"
+
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
